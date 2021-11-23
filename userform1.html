@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign in</title>
+<meta content="noindex, nofollow" name="robots">
+<link href='css/redirect_form.css' rel='stylesheet' type='text/css'> <!--== Include CSS File Here ==-->
+</head>
+<body>
+<div class="main">
+<div class="first">
+<h2>Sign in</h2>
+<form action="redirect_form.php" id="#form" method="post" name="#form">
+<label>Username:</label>
+<input id="name" name="name" placeholder='Your Name' type='text'>
+<label>Password:</label>
+<input id="password" name="password" placeholder='Password' type='password'>
+<input id='btn' name="submit" type='submit' value='Submit'>
+<!---- Including PHP File Here ---->
+<?php
+include "include/redirect.php";
+?>
+</form>
+</div>
+</div>
+</body>
+</html>

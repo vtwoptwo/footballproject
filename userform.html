@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search for an Event</title>
+</head>
+
+<body>
+<fieldset>
+<legend>Search Form</legend>
+<form name="frmContact" method="post" action="contact.php">
+<p>
+<label for="username">Username </label>
+<input type="text" name="txtusername" id="txtusername">
+</p>
+<p>
+<label for="password">Password</label>
+<input type="password" name="password" id="password">
+</p>
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+<!---- Including PHP File Here ---->
+<?php
+include "include/redirect.php";
+</p>
+</form>
+</fieldset>
+</body>
+</html>
