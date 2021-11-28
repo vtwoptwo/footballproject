@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type ="text/css" href="mystyle.css">
 </head>
 <body>
-<h1>Site Index</h1>
+<h1>ADministrator Page </h1>
 <p>Welcome to the Soccer database. Please select the table you want to view.</p>
 <ul>
 	<li><a href = "administration.php">ADMINISTRATION</a></li>
