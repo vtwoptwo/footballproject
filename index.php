@@ -29,7 +29,12 @@
 </div>
 
     
-     </section>
+</section>
+
+<section class="info">
+    <h1> With Footloose you learn how to fly! </h1>
+    <p>lorem ipsum bla bla bla</p>
+</section>
      
 </body>
 </html>
