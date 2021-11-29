@@ -13,7 +13,7 @@
   <P>CREATE TABLE `fms`.`position` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , `current_position` VARCHAR(30) NOT NULL , `starting_date` DATE NOT NULL , `previous_position` VARCHAR(30) NOT NULL , `end_date` DATE NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;</P>
   <P> CREATE TABLE `fms`.`team` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , `name` VARCHAR(30) NOT NULL , `address` VARCHAR(30) NOT NULL , `ranking` INT(11) NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;</P>
   <p>CREATE TABLE `fms`.`users` ( `id` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(50) NOT NULL , `title` VARCHAR(50) NOT NULL , `password` VARCHAR(255) NOT NULL , `created_at` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;</p>
-
+  <p>CREATE TABLE `soccer`.`playerpa` ( `ID` INT(11) NOT NULL AUTO_INCREMENT , `professional` VARCHAR(1) NOT NULL , `first_name` VARCHAR(30) NOT NULL , `middle_name` VARCHAR(30) NOT NULL , `surname` VARCHAR(30) NOT NULL , `birth_date` VARCHAR(100) NOT NULL , `height` VARCHAR(10) NOT NULL , `weight` VARCHAR(10) NOT NULL , `current_team` VARCHAR(30) NOT NULL , `previous_team` VARCHAR(30) NOT NULL , `experience` VARCHAR(11) NOT NULL , `salary` VARCHAR(10) NOT NULL , `start_date` VARCHAR(100) NOT NULL , `end_date` VARCHAR(100) NOT NULL , `binding_conditions` VARCHAR(50) NOT NULL , `occupation` VARCHAR(30) NOT NULL , `institution` VARCHAR(30) NOT NULL , `hobbies` VARCHAR(50) NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;</p>
 </body>
 
 
