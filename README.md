@@ -4,6 +4,6 @@
 
 
 <body> 
-  <p> Description of the Project </p>
+  <p> Simple Web interface for 3 different users with login and adding data functionalities. Backend written in PHP using PHPMyAdmin, SQL Database.  </p>
   
 </body>
